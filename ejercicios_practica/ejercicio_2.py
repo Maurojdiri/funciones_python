@@ -1,46 +1,44 @@
-# Funciones [Python]
+# Tipos de variables [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.2
+# Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios con funciones
+# Ejercicios de práctica numérica y consola
 
-def promedio(numeros):
-    print("Funcion promedio")
-    resultado = 0
-    # La función promedio recibe como parámetro una
-    # lista de números. Con ella calcule el promedio como:
+# Ahora los valores a operar deben ser ingresados por
+# consola con la función "input" como se ve a continuación
+print('Ingrese por consola el primer número entero a operar:')
+numero_1 = int(input(int))
 
-    # promedio = sumatoria_numeros / cantidad_numeros
+print('Ingrese por consola el segundo número entero a operar:')
+numero_2 = int(input(int))
 
-    # Resuelva la sumatoria y la cantidad con las herramientas
-    # que desee, recomendamos usar las funciones disponibles
-    # de Python para ello:    
-    # sum --> obtener la sumatoria de números
-    # len --> obtener la cantidad de números
+# Alumno: Imprima en pantalla los dos números enteros solicitados
+print("los numeros enteros a operar son:", numero_1, numero_2)
 
-    # La función debe retornar (return) el promedio calculado
-    # La función debe contemplar si se le pasa una lista vacia
-    # (es decir, de "0" elementos)
+# Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
+# numero_1, numero_2
+# Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
+# El resultado de sumar 4 y 2 es 6
+# NOTA: No coloque usted los nùmeros y resultados, use las variables
 
-    return resultado
+# Suma
+suma = numero_1 + numero_2
+print("el resultado de sumar", numero_1, "y", numero_2, "es", suma) 
 
+# Resta
+resta = numero_1 - numero_2
+print("el resultado de restar", numero_1, "y", numero_2, "es", resta)
 
-if __name__ == '__main__':
-    print("Bienvenidos a otra clase de Inove con Python")
-    
-    numeros = [2, 4, 6, 8, 10, 12]
+# División
+division = numero_1 / numero_2
+print("el resultado de dividir", numero_1, "y", numero_2, "es", division)
 
-    # Alumno: Complete la función "promedio"
+# Multiplicación
+multiplicacion = numero_1 * numero_2
+print("el resultado de multiplicar", numero_1, "y", numero_2, "es", multiplicacion)
 
-    # Llamar a la función en este lugar y capturar el valor del retorno
-    resultado_promedio = promedio(numeros)
-
-    # Luego imprimir en pantalla el valor resultante:
-    # print(....)
-
-    print("terminamos")

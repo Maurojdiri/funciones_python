@@ -1,25 +1,26 @@
-# Funciones [Python]
+# Tipos de variables [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.2
+# Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios con funciones
+# Ejercicios de práctica numérica
 
-def imprimir_mayor(numero_1, numero_2):
-    print("Funcion imprimir mayor")
-    # En esta función debe determinar cual de los dos
-    # números ingresados por parámetro es mayor
-    # y luego imprimir dicho valor en pantalla
+numero_1 = 5
+numero_2 = 7
 
+# Realizar la suma de las dos variables
+# numero_1 y numero_2
+# Almacenar el valor de la suma en una variable
+# ej:
+operacion = numero_1 + numero_2
 
-if __name__ == '__main__':
-    print("Bienvenidos a otra clase de Inove con Python")
-    
-    # Alumno: Complete la función "imprimir_mayor"
-    imprimir_mayor(2, 10)
+# Imprimir en pantalla el resultado de la suma
+print("El resultado de la suma es:", operacion) 
 
-    print("terminamos")
+# Repita el procedimiento para realizar la resta
+operacion = numero_1 - numero_2
+print("El resultado de la resta es:", operacion)

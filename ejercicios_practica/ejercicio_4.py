@@ -1,47 +1,29 @@
-# Funciones [Python]
+# Tipos de variables [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.2
+# Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios con funciones
+# Ejemplos variables de texto
 
-# --------------------------------
-# Aquí dentro definir la función que solicitará
-# el nombre de tres invitados
-# def generar_invitados():
+# Ingrese tres palabras y arme un acrónimo con ellas
+# Si desea puede modificar el código para ingresar más palabras
+print("ingrese palabra 1: united")
+palabra_1 = str(input())
+
+print('ingrese palabra 2: state')
+palabra_2 = str(input())
+
+print('ingrese palabra 3: america')
+palabra_3 = str(input())
+
+# De cada palabra debe tomar la primera letra y armar el acrónimo
+# Ejemplo: Alumbrado, barrido y limpieza --> ABL
+# Imprimir el resultado en pantalla
+
+print(palabra_1 [0], palabra_2[0], palabra_3[0])
 
 
-# --------------------------------
-
-
-if __name__ == '__main__':
-    print("Bienvenidos a otra clase de Inove con Python")
-    
-    # Alumno: Crear la función "generar_invitados"
-
-    # Dentro de esa función el sistema deberá solicitar
-    # al usuario por consola que ingrese tres nombres de 
-    # tres invitados.
-    # IMPORTANTE: Utilizar un "input" por cada invitado
-    # que se solicite ingresar
-
-    # Los tres nombres ingresados se deberán guardar en
-    # una lista
-
-    # La función generar_invitados deberá retornar
-    # la lista de invitados generados
-
-    # NOTA: Recomendamos utilizar bucles para no repetir código
-    # y solicitar los 3 invitiados, uno en cada iteración del bucle
-
-    # Luego de crear la función invocarla en este lugar:
-
-    # lista_invitados = generar_invitados()
-
-    # Imprimir en pantalla "lista_invitados":
-
-    print("terminamos")
